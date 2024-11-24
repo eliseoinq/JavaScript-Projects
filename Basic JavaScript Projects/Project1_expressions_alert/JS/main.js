@@ -4,3 +4,6 @@ var Team = "Ferrari ", Driver = "Sainz ", principle = "Vasseur "; //Defined vari
 document.write(Driver); //variation to be displyed 
 document.write("Hamingway said\"If you are having dessert, you didn't drink enough\"."+"But what if you have desert first?") //concatenated text with backlash function
 document.write(5+5); //actual fuction
+function printMessage() {
+    document.getElementById("greetings").innerHTML = "Good Morning!";
+}
