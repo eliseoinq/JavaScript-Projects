@@ -11,5 +11,19 @@
         </button>
 		<p id="output"></p>
 		<h1 id="concatenate" onclick="join()">Click here!</h1>
+		<p>Call my multipler function which performs a calculation and returns the result:</p>
+		<p id="multiply"></p>
+		<script>
+			function multiply(p1, p2) {
+             return p1 * p2;
+}
+
+		let result = multiply(6, 8);
+		document.getElementById("multiply").innerHTML = result;
+		</script>
+		<h2 id="demo"></h2>
+		<script>
+			document.getElementById("demo").innerHTML = "We made it";
+		</script>
 	</body>
 </html>
