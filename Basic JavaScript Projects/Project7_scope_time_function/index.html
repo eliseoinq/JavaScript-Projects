@@ -1,0 +1,25 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+            <title>Project7_scope_time_function</title>
+        <!-- Link to external JavaScript file -->
+            <script src="JS/main.js"></script> 
+	</head>
+	<body>
+		<!-- Calls the get date function on click using IF ans Else statement-->
+		<p id="Greetings" onclick="get_Date()">Click for morning greetings only before noon</p>
+		<p id="Support" onclick="get_Support()">click for support</p>
+
+		<!--Calls the win_holiday function using IF and Else statement -->
+		<p>Enter your offer to win a holiday</p>
+		<input id="Offer" value="" placeholder="Your offer"/>
+		<p id="Holiday"></p>
+		<button onclick="win_holiday()">Submit</button>
+
+		<!-- calls a function using the else if statement -->
+		 <p id="Time_of_day"></p>
+		 <button onclick="Time_function()">Click here to get the time</button>
+	</body>
+</html>
