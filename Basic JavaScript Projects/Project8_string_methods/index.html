@@ -1,0 +1,50 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+            <title>Project8_string_methods</title>
+        <!-- Link to external JavaScript file -->
+            <script src="JS/main.js"></script> 
+	</head>
+	<body>
+        <!-- Call a function to concatenate a sentence -->
+        <p id="Concatenate"></p>
+        <button onclick="full_sentance()">Click here for a sentence</button>
+
+        <!-- Call a function that slice a sentence -->
+        <p id="Slice"></p>
+        <button onclick="slice_method()">Click here to get sliced sentence</button>
+
+        <!-- Call a function that slice a sentence using a negative parameter -->
+
+        <p id="Slice_neg"></p>
+        <button onclick="slice_neg()">Here we slice with negative parameter</button>
+
+        <!-- Call a function to convert sentence to upper cases -->
+
+        <p>Click on button to convert the sentence to upper cases</p>
+        <button onclick="Convert_upper()">Try it</button>
+        <p id="upper">Make me big!</p>
+
+        <!-- Call a function to return a number toString -->
+        <P>Click the button to convert onehundred and twentyfive in numbers</P>
+        <button onclick="string_Method()">Click here</button>
+        <p id="Number_to_string"></p>
+
+        <!-- Call a function to precision to shorten a number -->
+         <p>Click the button to shorten this number 12584.215648325 to only three numbers after the point</p>
+         <button onclick="precision_Method()">Click here</button>
+         <p id="long_number"></p>
+
+         <!-- Call a function toFixed a number -->
+         <p>Click the button to use the toFixed() function to converts the number 7.89416 to a string, rounded to a specified number of decimals, in this case rounding up:</p>
+         <button onclick="roundUp()">Try it</button>
+         <p id="round_up"></p>
+
+         <!-- Call a function valueOf to return the primitive value of a number -->
+        <P>click the button to use the valueOf method to return the primitive value of a number:</P>
+        <button onclick="getValueOf()">Try it</button>
+        <p id="valueOf"></p>
+	</body>
+</html>
